@@ -1,0 +1,28 @@
+{
+  "name": "javascripting-golf",
+  "version": "1.0.0",
+  "description": "my attempt at solving [`javascripting`](https://github.com/workshopper/javascripting) with the least amount of code possible",
+  "scripts": {
+    "build:readmes": "node ./scripts/build_test.js build readmes",
+    "build:mock": "node ./scripts/build_test.js build mock",
+    "setup": "mkdir tmp && npm i --prefix tmp/ javascripting && npm run dep",
+    "dep": "npm i --prefix 12-http_uppercaserer/ through2-map",
+    "test:solutions": "bash ./scripts/test_solutions.sh",
+    "test:mock": "node ./scripts/build_test.js test mock",
+    "test:lint": "standard -v scripts/*js",
+    "test": "npm run test:lint && npm run test:solutions && npm run test:mock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darcyclarke/javascripting-golf.git"
+  },
+  "author": "@darcyclarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darcyclarke/javascripting-golf/issues"
+  },
+  "homepage": "https://github.com/darcyclarke/javascripting-golf#readme",
+  "devDependencies": {
+    "standard": "^11.0.0"
+  }
+}

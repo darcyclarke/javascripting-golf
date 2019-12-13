@@ -38,7 +38,7 @@ test character counts:
 `npm run test:mock`
 
 ### Credit
-This repo is based on the work of [Ricky Miller](http://github.com/rickcodes/learnyounode) & the wider [NodeSchool Toronto](http://github.com/nodeschool/toronto) mentor group.
+This repo is based on the work of [Ricky Miller](http://github.com/rickycodes/learnyounode-golf) & the wider [NodeSchool Toronto](http://github.com/nodeschool/toronto) mentor group.
 
 ### License
 
